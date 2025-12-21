@@ -1,4 +1,4 @@
-# Equations under consideration:
+# Equations under consideration
 
 ## Simplest PDE
 
@@ -60,3 +60,13 @@ $$u(x,0) = \sin(kx),\quad \text{where}\ k=2$$
 
 Solution:
 $$u(x,t) = e^{\lambda k^4 t}\sin(k(x+t))$$
+
+# Results
+
+| Equation |   PINN   |   TENG   |
+|----------|----------|----------|
+| Simplest | Row 1 B  | Row 1 C  |
+| Burgers  | Row 2 B  | Row 2 C  |
+| 2nd order| Row 3 B  | Row 3 C  |
+| 3rd order| Row 3 B  | Row 3 C  |
+| 4th order| Row 3 B  | Row 3 C  |
