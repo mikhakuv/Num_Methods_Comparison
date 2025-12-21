@@ -63,10 +63,8 @@ $$u(x,t) = e^{\lambda k^4 t}\sin(k(x+t))$$
 
 # Results
 
-| Equation |   PINN   |   TENG   |
-|----------|----------|----------|
-| Simplest | Row 1 B  | Row 1 C  |
-| Burgers  | Row 2 B  | Row 2 C  |
-| 2nd order| Row 3 B  | Row 3 C  |
-| 3rd order| Row 3 B  | Row 3 C  |
-| 4th order| Row 3 B  | Row 3 C  |
+|  Equation  |   PINN   |   TENG   |
+|------------|----------|----------|
+|  Simplest  | [works](results/PINN-Simplest.md)  | [works](results/TENG-Simplest.md)  |
+|  Burgers   | [works](results/PINN-Burgers.md)  | [not stable](results/PINN-Simplest.md)  |
+|Higher order| [works, but not accurate](results/PINN-HigherOrder.md)  | TBD  |
