@@ -3,14 +3,14 @@ In this experiment TENG was also given same mesh of points as for unstable FD sc
 However the results dont show any instability:  
 
 <p align="center">
-  <img src="pictures/Simple_TENG_solution.png" width="500"><br>
+  <img src="../pictures/Simple_TENG_solution.png" width="1000"><br>
   <em>Figure 1: TENG solution</em>
 </p>
 
 It is interesting to compare it with FD scheme:  
 
 <p align="center">
-  <img src="pictures/Simple_FD_solution.png" width="500"><br>
+  <img src="../pictures/Simple_FD_solution.png" width="1000"><br>
   <em>Figure 2: FD solution</em>
 </p>
 
@@ -20,11 +20,11 @@ Deviations from exact solution are artificially displayed larger than they are i
 'd.a. 20 times' means that instead of $u$ we use $u_{da} = u_{exact} + 20*(u-u_{exact})$  
 
 <p align="center">
-  <img src="pictures/Simple_TENG_deviation.png" width="500"><br>
+  <img src="../pictures/Simple_TENG_deviation_1.png" width="1000"><br>
   <em>Figure 3: TENG deviation</em>
 </p>
 
 <p align="center">
-  <img src="pictures/Simple_FD_deviation_1.png" width="500"><br>
+  <img src="../pictures/Simple_FD_deviation.png" width="1000"><br>
   <em>Figure 4: FD deviation</em>
 </p>
