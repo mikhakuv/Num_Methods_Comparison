@@ -5,6 +5,6 @@ In this experiment 2 PINNs were trained using 'different' operators:
 However the results are almost equal, deviation seems to be same as deviation between 2 identical PINN solutions from different launches:
 
 <p align="center">
-  <img src="pictures/Burgers_PINN_solutions.png" width="500"><br>
-  <em>PINN_1 used operator B_1 and PINN_2 used B_2</em>
+  <img src="../pictures/Burgers_PINN_solution.png" width="1000"><br>
+  <em>Figure: PINN_1 used operator B_1 and PINN_2 used B_2</em>
 </p>
