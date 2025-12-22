@@ -2,7 +2,7 @@ In this experiment 2 TENGs were tested using 'different' operators:
 * Burgers operator 1: $\hat{B}_1\circ u = \frac{\partial u}{\partial t} + \frac{\partial}{\partial x}(\frac{1}{2}u^2)$
 * Burgers operator 2: $\hat{B}_2\circ u = \frac{\partial u}{\partial t} + u\frac{\partial u}{\partial x}$  
 
-For simple IC both TENGs worked good (interestingly, first case even took less iterations on each step) until the shock appeared, after that arrays were filled with `Nan`:  
+For simple IC both TENGs worked good until the shock appeared, after that arrays were filled with `Nan`:  
 
 <p align="center">
   <img src="../pictures/Burgers_TENG_solution_gauss.png" width="1000"><br>
