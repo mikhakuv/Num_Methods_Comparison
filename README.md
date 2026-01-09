@@ -3,6 +3,8 @@
 ## Simplest PDE
 
 $$\frac{\partial u}{\partial t} - \frac{\partial u}{\partial x} = 0$$
+Domain:
+$$(x,t)\in [0,2\pi]\times [0,1]$$
 Initial condition:  
 $$u(x,0) = \sin\left(x\right)$$
 Solution:
@@ -11,6 +13,8 @@ $$u(x,t) = \sin\left(x+t\right)$$
 ## Burgers equation
 
 $$\frac{\partial u}{\partial t} + \frac{\partial (f(u))}{\partial x} = 0,\quad  \text{where}\ f(u) = \frac{u^2}{2}$$
+Domain:
+$$(x,t)\in [-2,2]\times [0,1]$$
 Shock initial condition:
 $$u(x,0) = 
 \begin{cases}
@@ -35,6 +39,9 @@ $$u(x,t) =
 ### Second order
 $$\frac{\partial u}{\partial t} - \frac{\partial u}{\partial x} - \lambda \frac{\partial^2 u}{\partial x^2} = 0,\quad \text{where}\ \lambda=-\frac{1}{2}$$
 
+Domain:
+$$(x,t)\in [0,2\pi]\times [0,1]$$
+
 Initial condition:
 $$u(x,0) = \sin(kx),\quad \text{where}\ k=2$$
 
@@ -46,6 +53,9 @@ $$u(x,t) = e^{-\lambda k^2 t}\sin(k(x+t))$$
 ### Third order
 $$\frac{\partial u}{\partial t} - \frac{\partial u}{\partial x} - \lambda \frac{\partial^3 u}{\partial x^3} = 0,\quad \text{where}\ \lambda=-\frac{1}{2}$$
 
+Domain:
+$$(x,t)\in [0,2\pi]\times [0,1]$$
+
 Initial condition:
 $$u(x,0) = \sin(kx),\quad \text{where}\ k=2$$
 
@@ -54,6 +64,9 @@ $$u(x,t) = \sin(k(x+t)-\lambda k^3 t)$$
 
 ### Fourth order
 $$\frac{\partial u}{\partial t} - \frac{\partial u}{\partial x} - \lambda \frac{\partial^4 u}{\partial x^4} = 0,\quad \text{where}\ \lambda=-\frac{1}{2}$$
+
+Domain:
+$$(x,t)\in [0,2\pi]\times [0,1]$$
 
 Initial condition:
 $$u(x,0) = \sin(kx),\quad \text{where}\ k=2$$
