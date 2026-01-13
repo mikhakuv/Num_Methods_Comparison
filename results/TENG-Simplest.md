@@ -15,7 +15,7 @@ It is interesting to compare it with FD scheme:
 </p>
 
 TENG seems to be unconditionally stable because it does not amplify sharp local deviations that occur during computations.
-Below there are figures with 6 consequent slices of both schemes. 
+Below there are figures with slices of both schemes. 
 Deviations from exact solution are artificially displayed larger than they are in reality:   
 'd.a. 20 times' means that instead of $u$ we use $u_{da} = u_{exact} + 20*(u-u_{exact})$  
 
@@ -26,5 +26,5 @@ Deviations from exact solution are artificially displayed larger than they are i
 
 <p align="center">
   <img src="../pictures/Simple_FD_deviation.png" width="1000"><br>
-  <em>Figure 4: FD deviation</em>
+  <em>Figure 4: FD deviation (6 consequent slices before scheme loses stability)</em>
 </p>
